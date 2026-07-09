@@ -118,14 +118,13 @@ The model achieved the best performance compared to Linear Regression and Random
 * livable_surface
 * bedrooms
 * bathrooms
-* latitude
-* longitude
 
 ### Categorical features
 
 * state_of_property
 * epc_score
 * province
+* city
 
 The preprocessing pipeline is included inside the saved model artifact:
 
@@ -172,11 +171,10 @@ Example request:
   "livable_surface": 120,
   "bedrooms": 3,
   "bathrooms": 1,
-  "latitude": 50.83,
-  "longitude": 4.35,
   "state_of_property": "good",
   "epc_score": "B",
-  "province": "brussels"
+  "province": "brussels",
+  "city" : "brussels"
 }
 ```
 
