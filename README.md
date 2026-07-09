@@ -358,6 +358,9 @@ Possible improvements:
 * Retrain the model with new real estate data
 
 ---
+## ⏱️ Timeline
+
+This project took **1 day** for completion (+ 1 day for improvements).
 
 # 👤 Author
 
