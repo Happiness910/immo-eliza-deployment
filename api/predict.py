@@ -5,7 +5,7 @@ import pandas as pd
 # Load trained model
 # ============================================================
 
-model_path = "models/best_model.pkl"
+model_path = "models/best_model_full.pkl"
 model = joblib.load(model_path)
 
 # ============================================================
